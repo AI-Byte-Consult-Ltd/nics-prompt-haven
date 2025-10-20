@@ -17,7 +17,7 @@ const Index = () => {
     if (!prompt.trim()) {
       toast({
         title: "Ошибка",
-        description: "Пожалуйста, введите ваш запрос",
+        description: "Пожалуйста, введите ваш promt",
         variant: "destructive",
       });
       return;
@@ -160,7 +160,7 @@ const Index = () => {
               </Button>
               
               <p className="text-sm text-muted-foreground mt-4 text-center">
-                Ваш запрос автоматически интегрируется в Nix AI Workflow.
+                Ваш запрос автоматически интегрируется в NEVOPROS Workflow by NICS AI.
               </p>
             </div>
 
@@ -216,7 +216,7 @@ const Index = () => {
           <div className="text-center text-sm text-foreground/60 font-light space-y-1">
             <p>© Copyright 2025</p>
             <p>Site created by NICS AI Ecosystem</p>
-            <p>by AI Byte Consult Ltd.</p>
+            <p>part of AI Byte Consult Ltd.</p>
           </div>
         </footer>
       </div>
