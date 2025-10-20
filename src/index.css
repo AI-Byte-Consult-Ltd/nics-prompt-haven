@@ -8,89 +8,96 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Wooden cottage theme - warm, natural colors */
+    --background: 35 45% 88%;
+    --foreground: 25 35% 20%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 35 50% 94%;
+    --card-foreground: 25 35% 20%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 35 50% 94%;
+    --popover-foreground: 25 35% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Rich brown primary */
+    --primary: 25 45% 28%;
+    --primary-foreground: 35 50% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Warm beige secondary */
+    --secondary: 35 35% 85%;
+    --secondary-foreground: 25 40% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted warm tones */
+    --muted: 35 30% 80%;
+    --muted-foreground: 25 25% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Golden amber accent */
+    --accent: 38 65% 55%;
+    --accent-foreground: 25 40% 15%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 35 50% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 35 25% 75%;
+    --input: 35 30% 90%;
+    --ring: 38 65% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Gradients for wooden effect */
+    --wood-gradient: linear-gradient(135deg, hsl(30 40% 70%), hsl(35 45% 80%));
+    --warm-glow: 38 80% 60%;
+    
+    /* Shadows */
+    --shadow-soft: 0 4px 20px hsla(25, 40%, 30%, 0.15);
+    --shadow-wood: 0 2px 8px hsla(25, 50%, 20%, 0.2);
 
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 35 40% 90%;
+    --sidebar-foreground: 25 35% 25%;
+    --sidebar-primary: 25 45% 28%;
+    --sidebar-primary-foreground: 35 50% 98%;
+    --sidebar-accent: 35 35% 85%;
+    --sidebar-accent-foreground: 25 40% 25%;
+    --sidebar-border: 35 25% 75%;
+    --sidebar-ring: 38 65% 55%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 25 30% 18%;
+    --foreground: 35 40% 90%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 25 28% 22%;
+    --card-foreground: 35 40% 90%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 25 28% 22%;
+    --popover-foreground: 35 40% 90%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 38 60% 50%;
+    --primary-foreground: 25 30% 15%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 25 25% 28%;
+    --secondary-foreground: 35 40% 85%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 25 22% 30%;
+    --muted-foreground: 35 25% 60%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 38 60% 45%;
+    --accent-foreground: 35 40% 95%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 35 40% 95%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 25 20% 32%;
+    --input: 25 22% 30%;
+    --ring: 38 60% 50%;
+
+    --sidebar-background: 25 28% 20%;
+    --sidebar-foreground: 35 35% 85%;
+    --sidebar-primary: 38 60% 50%;
+    --sidebar-primary-foreground: 25 30% 15%;
+    --sidebar-accent: 25 25% 28%;
+    --sidebar-accent-foreground: 35 40% 85%;
+    --sidebar-border: 25 20% 32%;
+    --sidebar-ring: 38 60% 50%;
   }
 }
 
@@ -101,5 +108,42 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out;
+  }
+
+  .animate-fade-in-delay {
+    animation: fadeIn 0.6s ease-out 0.2s both;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .wood-texture-overlay {
+    position: relative;
+  }
+  
+  .wood-texture-overlay::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, hsla(30, 40%, 70%, 0.3), hsla(35, 45%, 80%, 0.2));
+    pointer-events: none;
   }
 }
